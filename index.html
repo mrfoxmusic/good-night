@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good Night - NamNguyen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffebeb;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .album-cover {
+            max-width: 100%;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 10px 0;
+            color: #666;
+        }
+
+        .links {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .links a {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 1em;
+            font-weight: bold;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .links img {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        .links a.youtube { background-color: #FF0000; }
+        .links a.spotify { background-color: #1DB954; }
+        .links a.apple-music { background-color: #FA57C1; }
+        .links a.amazon-music { background-color: #FF9900; }
+        .links a.deezer { background-color: #FF0095; }
+
+        .links a:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://mrfoxmusic.github.io/img/goodnight.jpg" alt="Good Night" class="album-cover" />
+        <h1>Good Night - NamNguyen</h1>
+        <p>Choose Music Service:</p>
+        <ul class="links">
+            <li><a href="https://youtube.com" target="_blank" class="youtube"><img src="https://example.com/youtube-logo.png" alt="YouTube Logo" />YouTube</a></li>
+            <li><a href="https://spotify.com" target="_blank" class="spotify"><img src="https://example.com/spotify-logo.png" alt="Spotify Logo" />Spotify</a></li>
+            <li><a href="https://apple.com/music" target="_blank" class="apple-music"><img src="https://example.com/apple-music-logo.png" alt="Apple Music Logo" />Apple Music</a></li>
+            <li><a href="https://music.amazon.com" target="_blank" class="amazon-music"><img src="https://example.com/amazon-music-logo.png" alt="Amazon Music Logo" />Amazon Music</a></li>
+            <li><a href="https://deezer.com" target="_blank" class="deezer"><img src="https://example.com/deezer-logo.png" alt="Deezer Logo" />Deezer</a></li>
+        </ul>
+    </div>
+</body>
+</html>
